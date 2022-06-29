@@ -1,0 +1,78 @@
+.navbar 
+{
+	background-color: 	lightblue;
+	height: 			90px;
+	width: 				100%;
+	position: 			fixed;
+	z-index: 			1;
+	margin: 			0;
+	padding: 			0;
+}
+
+.navlogo
+{
+	width: 		150px; 
+	height: 	80px;
+	margin-top: 6px;
+}
+
+.navlogo
+{
+	width: 		150px; 
+	height: 	80px;
+	margin-top: 6px;
+}
+
+.navlinks
+{
+	text-decoration: none;
+	font-size: 		14px;
+	font-weight: 	bold;
+	float: 			right;
+	color: 			white;
+	margin-right: 	190px;
+	margin-top: 	38px;
+	z-index: 10;
+
+}
+
+.navlinks:hover 
+{
+	color: black;
+}
+
+.btnSection
+{
+	text-decoration:none;
+	font-weight: 	bold;
+	position: 		relative;
+	top: 			30px;
+	left: 			250px;
+	color: 			white;
+	display: 		none;
+	font-size: 		13px;
+	background:		rgba(95,95,95,.7);
+	padding: 		8px 16px;
+	border-radius: 	6.4px;
+	letter-spacing: 1px;
+	height: 		20px;
+	float: 			right;
+}
+
+.btnLogout
+{
+	text-decoration:none;
+	font-weight: 	bold;
+	color: 			white;
+	position: 		relative;
+	display: 		none;
+	font-size: 		13px;
+	top: 			30px;
+	left: 			210px;
+	background:		rgba(95,95,95,.7);
+	padding: 		8px 16px;
+	border-radius: 	6.4px;
+	letter-spacing: 1px;
+	height: 		20px;
+	float: 			right;
+}

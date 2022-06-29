@@ -1,0 +1,15 @@
+.busca {
+
+	position: fixed;
+	left: 170px;	
+	top: 40px;
+	z-index: 2;
+}
+
+.bemvindo
+{
+	position: 	relative;
+	left: 		280px;
+	bottom: 	49px;
+	width: 		300px;
+}

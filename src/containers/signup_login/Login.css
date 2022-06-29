@@ -1,0 +1,92 @@
+	.logo{
+	width: 		150px; 
+	height: 	80px;
+	z-index: 	1;
+}
+.loginPage{
+
+	width: 				100%;
+	background-color: 	lightblue;
+	height: 			817px;
+	display: 			flex;
+	align-items: 		center;
+	justify-content: 	center;
+
+}
+
+
+.login{
+
+	background-color: 	white;
+	width: 				500px;
+	height: 			600px;
+	border-radius: 		10px;
+	padding: 			10px;
+	margin: 			10px;
+	border-width: 		10px;
+
+}
+
+.form{
+	text-align: center;
+	padding: 	10px;
+	margin: 	10px;
+	top: 		40px;
+	position: 	relative;
+	display: 	none;
+
+}
+
+.linputs{
+
+	height: 		20px;
+	font-size: 		18px;
+	width: 			380px;
+	top: 			100px;
+	margin-top: 	50px;
+	border-top: 	0;
+	border-left: 	0;
+	border-right: 	0;
+	border-color: 	black;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.btnLogin{
+
+	height: 			50px;
+	width: 				140px;
+	margin-top: 		120px;
+	font-weight: 		bold;
+	color: 				white;
+	background-color: 	rgb(188, 10, 33);
+	border: 			none;
+
+}
+
+.btnCad{
+
+	text-decoration: 	none;
+	position: 			relative;
+	top: 				40px;
+	color:				gray;
+
+}
+
+.btnCad:hover{
+
+	text-decoration: underline;
+
+}
+
+.aviso{
+	display: 	none;
+	top: 		20px;
+	position: 	relative;
+	text-align: center;
+}

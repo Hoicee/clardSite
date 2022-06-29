@@ -1,0 +1,70 @@
+.pagProdPage{
+
+	width: 				100%;
+	background-color: 	white;
+	display: 			flex;
+	align-items: 		center;
+	justify-content: 	center;
+
+}
+
+.quadradao{
+
+	background-color: 	lightblue;
+	position: 			relative;
+	color: 				black;
+	width: 				800px;
+	height: 			450px;
+	top: 				100px;
+	border-radius: 		10px;
+	padding: 			10px;
+	margin: 			10px;
+	border-width: 		10px;
+	text-align: 		center;
+}
+
+.nomeprd{
+
+	position: 	relative;
+	top:		50px;
+
+}
+
+.valor{
+
+	position: 	relative;
+	top: 		90px;
+
+}
+
+.imgProduto {
+
+	position: 		relative;
+	width: 			320px;
+	height: 		320px;
+	float: 			left;
+	border-radius: 	20px;
+	padding: 		10px;
+	top: 			50px;
+	left: 			20px;
+
+
+}
+
+.btnAdcCarrinho{
+
+	height: 			50px;
+	width: 				140px;
+	margin-top: 		220px;	
+	font-weight: 		bold;
+	color: 				white;
+	background-color: 	rgb(188, 10, 33);
+	border: 			none;
+
+	transition: transform .2s;
+
+}
+
+.btnAdcCarrinho:active{
+	transform: scale(0.9);
+}

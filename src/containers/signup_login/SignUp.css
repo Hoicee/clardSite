@@ -1,0 +1,88 @@
+.logot{
+	width: 		150px; 
+	height: 	80px;
+	z-index: 	1;
+}
+.SignUpPage{
+
+	width: 				100%;
+	background-color: 	lightblue;
+	height: 			817px;
+	display: 			flex;
+	align-items: 		center;
+	justify-content: 	center;
+
+}
+
+
+.SignUp{
+
+	background-color: 	white;
+	width: 				500px;
+	height: 			600px;
+	border-radius: 		10px;
+	padding: 			10px;
+	margin: 			10px;
+	border-width: 		10px;
+
+}
+
+.cForm{
+	text-align: center;
+	padding: 	10px;
+	margin: 	10px;
+	top: 		20px;
+	position: 	relative;
+
+}
+
+.cinputs{
+
+	height: 		20px;
+	font-size: 		18px;
+	width: 			380px;
+	top: 			100px;
+	margin-top: 	30px;
+	border-top: 	0;
+	border-left: 	0;
+	border-right: 	0;
+	border-color: 	black;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.btnCads{
+
+	height: 			50px;
+	width: 				140px;
+	margin-top: 		80px;
+	font-weight: 		bold;
+	color: 				white;
+	background-color: 	rgb(188, 10, 33);
+	border: 			none;
+
+}
+
+.btnVoltar{
+
+	text-decoration: none;
+	position: 	relative;
+	top: 40px;
+	color: gray;
+
+}
+
+.btnVoltar:hover{
+
+	text-decoration: underline;
+
+}
+
+.aviso2{
+	text-align: center;
+}
